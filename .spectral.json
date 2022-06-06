@@ -34,7 +34,7 @@
       "given": [
         "#targ"
       ],
-      "severity": "error",
+      "severity": "warning",
       "then": {
         "function": "truthy",
         "field": "description"
