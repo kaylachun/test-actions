@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
 
       # Run Spectral
-      - uses: stoplightio/spectral-action@6ff6e10e6e96b17c4fb8b0fbabee9828751f8b11
+      - uses: stoplightio/spectral-action@c82df60d51d46583ce5fb0b5a1623289f4df79a7
         with:
           file_glob: 'doc/api/*.yaml'
